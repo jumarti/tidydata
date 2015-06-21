@@ -21,20 +21,20 @@ these two tidy DF.
 
 
 #getTidyDataSet
-1. Reads features.txt and activity_labels.txt into DF.
+*1. Reads features.txt and activity_labels.txt into DF.
 
 
-2. Reads actual data from experiments:
+*2. Reads actual data from experiments:
 read actual data from experiment which are originaly splitted among
 several files: (subject, activity, all other columns). All of this have the same number of rows and are the whole data that has to be
 tidy.
 
-3. activity IDs are merged with activity labels 
+*3. activity IDs are merged with activity labels 
 
-4. using filter, we get data related to cols with mean() or std() on their names
+*4. using filter, we get data related to cols with mean() or std() on their names
 
 
 
-5. All of the DF are binded with cbind
+*5. All of the DF are binded with cbind
 
-6. resulting DF is colnamed
+*6. resulting DF is colnamed
