@@ -9,9 +9,9 @@ To get tidy data from the experiments:
 
 ## Data book
 tidy data is a DF which columns are:
-1. subject_id : same as subject id from source 
-2. activity name: activity string label
-3 to 67: the subset of source features that relate to mean() and std().
+#1. subject_id : same as subject id from source 
+#2. activity name: activity string label
+#3 to 67: the subset of source features that relate to mean() and std().
 
 ##Implementation
 
