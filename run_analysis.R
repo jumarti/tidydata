@@ -1,6 +1,13 @@
-## Given an experiment directory, tidy 
 
 
+#main function that merges both experiments
+getTidyData <- function(){
+	rbind(getTidyDataSet("test"), getTidyDataSet("train"))
+
+}
+
+
+#tidies the data for a given type of experiment.
 getTidyDataSet <- function(etype, nrows=-1){
 	#etype select the data source: Either 'test' or 'train'
 	#nrows param may be diff. than 1 for testing purposes, as
@@ -43,10 +50,6 @@ getTidyDataSet <- function(etype, nrows=-1){
 }
 
 
-getTidyData <- function(){
-	rbind(getTidyDataSet("test"), getTidyDataSet("train"))
-
-}
 
 getSummary <- function(data)
 {
