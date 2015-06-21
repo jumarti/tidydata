@@ -20,7 +20,7 @@ it returns a tidy data set, then getTidyData simply does an rbind of
 these two tidy DF.
 
 
-#getTidyDataSet
+###getTidyDataSet
 1. Reads features.txt and activity_labels.txt into DF.
 
 
